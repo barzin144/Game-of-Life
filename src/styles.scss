@@ -1,0 +1,24 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  background-color: #272b30;
+}
+
+.live {
+  background-color: black;
+}
+
+.dead {
+  background-color: white;
+}
+
+.world .live,
+.world .dead {
+  width: 15px;
+  height: 15px;
+  border: 1px solid #e4e4e4;
+  float: left;
+}
+
+.world {
+  overflow: hidden;
+}
